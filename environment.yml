@@ -1,0 +1,24 @@
+name: XNAP
+channels:
+  - pytorch
+  - nvidia
+  - michael_wild
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel=6.29.5
+  - matplotlib=3.7.3
+  - seaborn=0.13.2
+  - numpy=1.24.4
+  - pandas=2.0.3
+  - pip=24.3.1
+  - psutil=6.0.0
+  - pysoundfile=0.12.1
+  - python=3.8.20
+  - pytorch=2.4.1
+  - scikit-learn=1.3.2
+  - wandb=0.16.6
+  - pip:
+      - iterative-stratification==0.1.9 
+      - torchaudio==2.4.1
+      - torchvision==0.19.1
